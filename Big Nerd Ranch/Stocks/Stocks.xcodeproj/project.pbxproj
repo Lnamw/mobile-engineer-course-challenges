@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AA0A25491C973A1A0018E795 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A25481C973A1A0018E795 /* main.m */; };
 		AA0A25511C973A3E0018E795 /* BNRStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A25501C973A3E0018E795 /* BNRStockHolding.m */; };
+		AAF2368D1C99D08A00D66D47 /* BNRForeignStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF2368C1C99D08A00D66D47 /* BNRForeignStockHolding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		AA0A25481C973A1A0018E795 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA0A254F1C973A3E0018E795 /* BNRStockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRStockHolding.h; path = ../BNRStockHolding.h; sourceTree = "<group>"; };
 		AA0A25501C973A3E0018E795 /* BNRStockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRStockHolding.m; path = ../BNRStockHolding.m; sourceTree = "<group>"; };
+		AAF2368B1C99D08A00D66D47 /* BNRForeignStockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRForeignStockHolding.h; sourceTree = "<group>"; };
+		AAF2368C1C99D08A00D66D47 /* BNRForeignStockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRForeignStockHolding.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				AA0A25481C973A1A0018E795 /* main.m */,
 				AA0A254F1C973A3E0018E795 /* BNRStockHolding.h */,
 				AA0A25501C973A3E0018E795 /* BNRStockHolding.m */,
+				AAF2368B1C99D08A00D66D47 /* BNRForeignStockHolding.h */,
+				AAF2368C1C99D08A00D66D47 /* BNRForeignStockHolding.m */,
 			);
 			path = Stocks;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF2368D1C99D08A00D66D47 /* BNRForeignStockHolding.m in Sources */,
 				AA0A25491C973A1A0018E795 /* main.m in Sources */,
 				AA0A25511C973A3E0018E795 /* BNRStockHolding.m in Sources */,
 			);
@@ -243,6 +249,7 @@
 				AA0A254E1C973A1A0018E795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
