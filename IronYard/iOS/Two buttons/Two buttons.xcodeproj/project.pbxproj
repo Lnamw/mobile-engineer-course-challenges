@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAF236341C99A19E00D66D47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF236331C99A19E00D66D47 /* main.m */; };
+		AAF236371C99A19E00D66D47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF236361C99A19E00D66D47 /* AppDelegate.m */; };
+		AAF2363A1C99A19E00D66D47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF236391C99A19E00D66D47 /* ViewController.m */; };
+		AAF2363D1C99A19E00D66D47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF2363B1C99A19E00D66D47 /* Main.storyboard */; };
+		AAF2363F1C99A19E00D66D47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF2363E1C99A19E00D66D47 /* Assets.xcassets */; };
+		AAF236421C99A19E00D66D47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF236401C99A19E00D66D47 /* LaunchScreen.storyboard */; };
+		AAF2364D1C99A19E00D66D47 /* Two_buttonsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF2364C1C99A19E00D66D47 /* Two_buttonsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAF236491C99A19E00D66D47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAF236271C99A19E00D66D47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAF2362E1C99A19E00D66D47;
+			remoteInfo = "Two buttons";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAF2362F1C99A19E00D66D47 /* Two buttons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Two buttons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF236331C99A19E00D66D47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAF236351C99A19E00D66D47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAF236361C99A19E00D66D47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAF236381C99A19E00D66D47 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AAF236391C99A19E00D66D47 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAF2363C1C99A19E00D66D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAF2363E1C99A19E00D66D47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAF236411C99A19E00D66D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAF236431C99A19E00D66D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAF236481C99A19E00D66D47 /* Two buttonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Two buttonsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF2364C1C99A19E00D66D47 /* Two_buttonsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Two_buttonsUITests.m; sourceTree = "<group>"; };
+		AAF2364E1C99A19E00D66D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAF2362C1C99A19E00D66D47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF236451C99A19E00D66D47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAF236261C99A19E00D66D47 = {
+			isa = PBXGroup;
+			children = (
+				AAF236311C99A19E00D66D47 /* Two buttons */,
+				AAF2364B1C99A19E00D66D47 /* Two buttonsUITests */,
+				AAF236301C99A19E00D66D47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAF236301C99A19E00D66D47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAF2362F1C99A19E00D66D47 /* Two buttons.app */,
+				AAF236481C99A19E00D66D47 /* Two buttonsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAF236311C99A19E00D66D47 /* Two buttons */ = {
+			isa = PBXGroup;
+			children = (
+				AAF236351C99A19E00D66D47 /* AppDelegate.h */,
+				AAF236361C99A19E00D66D47 /* AppDelegate.m */,
+				AAF236381C99A19E00D66D47 /* ViewController.h */,
+				AAF236391C99A19E00D66D47 /* ViewController.m */,
+				AAF2363B1C99A19E00D66D47 /* Main.storyboard */,
+				AAF2363E1C99A19E00D66D47 /* Assets.xcassets */,
+				AAF236401C99A19E00D66D47 /* LaunchScreen.storyboard */,
+				AAF236431C99A19E00D66D47 /* Info.plist */,
+				AAF236321C99A19E00D66D47 /* Supporting Files */,
+			);
+			path = "Two buttons";
+			sourceTree = "<group>";
+		};
+		AAF236321C99A19E00D66D47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAF236331C99A19E00D66D47 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAF2364B1C99A19E00D66D47 /* Two buttonsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAF2364C1C99A19E00D66D47 /* Two_buttonsUITests.m */,
+				AAF2364E1C99A19E00D66D47 /* Info.plist */,
+			);
+			path = "Two buttonsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAF2362E1C99A19E00D66D47 /* Two buttons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAF236511C99A19E00D66D47 /* Build configuration list for PBXNativeTarget "Two buttons" */;
+			buildPhases = (
+				AAF2362B1C99A19E00D66D47 /* Sources */,
+				AAF2362C1C99A19E00D66D47 /* Frameworks */,
+				AAF2362D1C99A19E00D66D47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Two buttons";
+			productName = "Two buttons";
+			productReference = AAF2362F1C99A19E00D66D47 /* Two buttons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAF236471C99A19E00D66D47 /* Two buttonsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAF236541C99A19E00D66D47 /* Build configuration list for PBXNativeTarget "Two buttonsUITests" */;
+			buildPhases = (
+				AAF236441C99A19E00D66D47 /* Sources */,
+				AAF236451C99A19E00D66D47 /* Frameworks */,
+				AAF236461C99A19E00D66D47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAF2364A1C99A19E00D66D47 /* PBXTargetDependency */,
+			);
+			name = "Two buttonsUITests";
+			productName = "Two buttonsUITests";
+			productReference = AAF236481C99A19E00D66D47 /* Two buttonsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAF236271C99A19E00D66D47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Training;
+				TargetAttributes = {
+					AAF2362E1C99A19E00D66D47 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AAF236471C99A19E00D66D47 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AAF2362E1C99A19E00D66D47;
+					};
+				};
+			};
+			buildConfigurationList = AAF2362A1C99A19E00D66D47 /* Build configuration list for PBXProject "Two buttons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAF236261C99A19E00D66D47;
+			productRefGroup = AAF236301C99A19E00D66D47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAF2362E1C99A19E00D66D47 /* Two buttons */,
+				AAF236471C99A19E00D66D47 /* Two buttonsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAF2362D1C99A19E00D66D47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF236421C99A19E00D66D47 /* LaunchScreen.storyboard in Resources */,
+				AAF2363F1C99A19E00D66D47 /* Assets.xcassets in Resources */,
+				AAF2363D1C99A19E00D66D47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF236461C99A19E00D66D47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAF2362B1C99A19E00D66D47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF2363A1C99A19E00D66D47 /* ViewController.m in Sources */,
+				AAF236371C99A19E00D66D47 /* AppDelegate.m in Sources */,
+				AAF236341C99A19E00D66D47 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF236441C99A19E00D66D47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF2364D1C99A19E00D66D47 /* Two_buttonsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAF2364A1C99A19E00D66D47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAF2362E1C99A19E00D66D47 /* Two buttons */;
+			targetProxy = AAF236491C99A19E00D66D47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAF2363B1C99A19E00D66D47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAF2363C1C99A19E00D66D47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAF236401C99A19E00D66D47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAF236411C99A19E00D66D47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAF2364F1C99A19E00D66D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AAF236501C99A19E00D66D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAF236521C99A19E00D66D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Two buttons/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.training.Two-buttons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAF236531C99A19E00D66D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Two buttons/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.training.Two-buttons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AAF236551C99A19E00D66D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Two buttonsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.training.Two-buttonsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Two buttons";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AAF236561C99A19E00D66D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Two buttonsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.training.Two-buttonsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Two buttons";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAF2362A1C99A19E00D66D47 /* Build configuration list for PBXProject "Two buttons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF2364F1C99A19E00D66D47 /* Debug */,
+				AAF236501C99A19E00D66D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAF236511C99A19E00D66D47 /* Build configuration list for PBXNativeTarget "Two buttons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF236521C99A19E00D66D47 /* Debug */,
+				AAF236531C99A19E00D66D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAF236541C99A19E00D66D47 /* Build configuration list for PBXNativeTarget "Two buttonsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF236551C99A19E00D66D47 /* Debug */,
+				AAF236561C99A19E00D66D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAF236271C99A19E00D66D47 /* Project object */;
+}
