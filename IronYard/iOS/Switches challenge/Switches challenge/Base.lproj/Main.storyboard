@@ -20,20 +20,26 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8B6-Q6-zQG">
                                 <rect key="frame" x="54" y="157" width="51" height="31"/>
                                 <connections>
-                                    <action selector="switcheChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="aMQ-As-lAH"/>
+                                    <action selector="switchChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="fna-jn-Ich"/>
                                 </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="srL-VU-1OD">
                                 <rect key="frame" x="205" y="157" width="51" height="31"/>
                                 <connections>
-                                    <action selector="switch2Changed:" destination="BYZ-38-t0r" eventType="valueChanged" id="zWC-9v-Cvf"/>
+                                    <action selector="switchChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="nBW-cU-lSX"/>
                                 </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rSP-4O-Y6e">
                                 <rect key="frame" x="54" y="287" width="51" height="31"/>
+                                <connections>
+                                    <action selector="switchChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="12I-L2-Dbg"/>
+                                </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Eo-pz-20K">
                                 <rect key="frame" x="205" y="287" width="51" height="31"/>
+                                <connections>
+                                    <action selector="switchChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="l5B-O6-WWI"/>
+                                </connections>
                             </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -41,9 +47,9 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="switchFour" destination="4Eo-pz-20K" id="exD-tg-hXj"/>
-                        <outlet property="switchOne" destination="8B6-Q6-zQG" id="zV7-h6-dx0"/>
-                        <outlet property="switchThree" destination="rSP-4O-Y6e" id="4nt-ow-BoP"/>
+                        <outlet property="switchFour" destination="4Eo-pz-20K" id="yJj-Tw-FCK"/>
+                        <outlet property="switchOne" destination="8B6-Q6-zQG" id="XQB-Yi-hcV"/>
+                        <outlet property="switchThree" destination="rSP-4O-Y6e" id="lIT-cd-qyG"/>
                         <outlet property="switchTwo" destination="srL-VU-1OD" id="shp-Vb-JiJ"/>
                     </connections>
                 </viewController>

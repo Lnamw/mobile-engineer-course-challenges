@@ -16,8 +16,7 @@
 @property (weak, nonatomic) IBOutlet UISwitch *switchFour;
 
 
-- (IBAction)switcheChanged:(id)sender;
-- (IBAction)switch2Changed:(id)sender;
+- (IBAction)switchChanged:(id)sender;
 
 
 @end
@@ -35,14 +34,26 @@
 }
 
 
+- (IBAction)switchChanged:(id)sender {
+    int flag = 0;
+    UISwitch *mySwitch = sender;
 
-
-
-
-- (IBAction)switcheChanged:(id)sender {
+    if (mySwitch.isOn) {
+        flag = 1;
+    }
     
+    if (flag == 1) {
+        _switchOne.on = YES;
+        _switchTwo.on = YES;
+        _switchThree.on = YES;
+        _switchFour.on = YES;
+    } else {
+        _switchOne.on = NO;
+        _switchTwo.on = NO;
+        _switchThree.on = NO;
+        _switchFour.on = NO;
+    }
 }
 
-- (IBAction)switch2Changed:(id)sender {
-}
+
 @end
