@@ -18,6 +18,7 @@
 		AAD2CE721CAB0E54007D3C3F /* DeleteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD2CE711CAB0E54007D3C3F /* DeleteCell.m */; };
 		AAD2CE771CAB19C5007D3C3F /* CheckMark.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD2CE761CAB19C5007D3C3F /* CheckMark.m */; };
 		AAD2CE7A1CAB2521007D3C3F /* ControlCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD2CE791CAB2521007D3C3F /* ControlCell.m */; };
+		AAD2CE7C1CABC26C007D3C3F /* computers.plist in Resources */ = {isa = PBXBuildFile; fileRef = AAD2CE7B1CABC26C007D3C3F /* computers.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		AAD2CE761CAB19C5007D3C3F /* CheckMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckMark.m; sourceTree = "<group>"; };
 		AAD2CE781CAB2521007D3C3F /* ControlCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlCell.h; sourceTree = "<group>"; };
 		AAD2CE791CAB2521007D3C3F /* ControlCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlCell.m; sourceTree = "<group>"; };
+		AAD2CE7B1CABC26C007D3C3F /* computers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = computers.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				AAD2CE541CAAFCC6007D3C3F /* Assets.xcassets */,
 				AAD2CE561CAAFCC6007D3C3F /* LaunchScreen.storyboard */,
 				AAD2CE591CAAFCC6007D3C3F /* Info.plist */,
+				AAD2CE7B1CABC26C007D3C3F /* computers.plist */,
 				AAD2CE481CAAFCC6007D3C3F /* Supporting Files */,
 			);
 			path = "More Tables";
@@ -214,6 +217,7 @@
 				AAD2CE581CAAFCC6007D3C3F /* LaunchScreen.storyboard in Resources */,
 				AAD2CE551CAAFCC6007D3C3F /* Assets.xcassets in Resources */,
 				AAD2CE531CAAFCC6007D3C3F /* Main.storyboard in Resources */,
+				AAD2CE7C1CABC26C007D3C3F /* computers.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +428,7 @@
 				AAD2CE691CAAFCC6007D3C3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAD2CE6A1CAAFCC6007D3C3F /* Build configuration list for PBXNativeTarget "More TablesUITests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +437,7 @@
 				AAD2CE6C1CAAFCC6007D3C3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
