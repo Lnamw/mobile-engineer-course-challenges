@@ -18,6 +18,9 @@
 @property BOOL hasInlinePicker;
 
 - (IBAction)dateAction:(id)sender;
+
+-(void)displayInlineDatePickerForRowAtIndexPath:(NSIndexPath *)indexPath;
+
 @end
 
 @implementation ViewController
@@ -91,10 +94,23 @@
         [self.myTableView deleteRowsAtIndexPaths:indexPaths withRowAnimation:UITableViewRowAnimationFade];
         self.hasInlinePicker = NO;
         self.datePickerIndexPath = nil;
+    } else {
+        NSArray *indexPaths = @[[NSIndexPath indexPathForRow:self.datePickerIndexPath.row +1 inSection:0]];
+        [self.myTableView deleteRowsAtIndexPaths:indexPaths withRowAnimation:UITableViewRowAnimationFade];
+        
+        if (self.datePickerIndexPath.row < indexPath.row) {
+            indexPaths = @[[NSIndexPath indexPathForRow:indexPath.row inSection:0]];
+        } else
+            indexPaths = @[[NSIndexPath indexPathForRow:indexPath.row inSection:0]];
+        [self.myTableView insertRowsAtIndexPaths:indexPaths withRowAnimation:UITableViewRowAnimationFade];
+        self.hasInlinePicker = YES;
+        if (self.datePickerIndexPath.row < indexPath.row) {
+            self.datePickerIndexPath = [NSIndexPath indexPathForRow:indexPath.row-1 inSection:0];
+        } else
+            self.datePickerIndexPath = [NSIndexPath indexPathForRow:indexPath.row inSection:0];
     }
     [self.myTableView deselectRowAtIndexPath:indexPath animated:YES];
     [self.myTableView endUpdates];
-    
 }
 
 
