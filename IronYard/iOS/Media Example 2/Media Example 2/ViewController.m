@@ -26,7 +26,8 @@
     _myWebView = [[WKWebView alloc] initWithFrame:myFrame];
     [self.view addSubview:_myWebView];
     
-    NSURL *filePath = [[[NSBundle mainBundle]] URLForRessource:@"mypdf" withExtension:@"pdf"];
+    NSURL *filePath = [[NSBundle mainBundle] URLForResource:@"mypdf" withExtension:@"pdf"];
+    [_myWebView loadFileURL:filePath allowingReadAccessToURL:filePath];
     
 
 }
@@ -37,5 +38,26 @@
 }
 
 - (IBAction)mediaSegments:(id)sender {
+    NSURL *filePath;
+    
+    switch ([sender selectedSegmentIndex]) {
+        case 0:
+            filePath = [[NSBundle mainBundle] URLForResource:@"mypdf" withExtension:@"pdf"];
+            break;
+        case 1:
+            filePath = [[NSBundle mainBundle] URLForResource:@"excel" withExtension:@"xlsx"];
+            break;
+        case 2:
+            filePath = [[NSBundle mainBundle] URLForResource:@"mykeynote" withExtension:@"ppt"];
+            break;
+        case 3:
+            filePath = [[NSBundle mainBundle] URLForResource:@"movie" withExtension:@"m4v"];
+            break;
+        default:
+            break;
+    }
+    [_myWebView loadFileURL:filePath allowingReadAccessToURL:filePath];
 }
+
+
 @end

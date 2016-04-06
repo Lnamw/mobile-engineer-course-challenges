@@ -32,6 +32,8 @@
     NSURLRequest *myRequest = [NSURLRequest requestWithURL:myURL];
     [_myWebView loadRequest:myRequest];
     
+    _myWebView.navigationDelegate = self;
+    
 
 }
 
