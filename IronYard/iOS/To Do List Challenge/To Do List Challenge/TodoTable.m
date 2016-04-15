@@ -27,7 +27,7 @@
     [super viewDidLoad];
     
     self.toDoList = [[NSMutableArray alloc] initWithCapacity:0];
-    self.toDoList = [@[@"Cooking", @"Do your Labs"] mutableCopy];
+    self.toDoList = [@[@"Cooking", @"Do my Labs"] mutableCopy];
     
     UIBarButtonItem *addItemButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addItem:)];
     self.navigationItem.rightBarButtonItem = addItemButton;
@@ -80,9 +80,10 @@
         UITextField *newItem = addItemPrompt.textFields[0];
         NSString *newItemName = newItem.text;
         [self.toDoList addObject:newItemName];
+        [self.marks addObject:[NSNumber numberWithBool:NO]];
         
         [self.tableView insertRowsAtIndexPaths:@[[NSIndexPath indexPathForRow:self.toDoList.count -1 inSection:0]] withRowAnimation:UITableViewRowAnimationAutomatic];
-//        
+        
 //        TodoTable *newItem = [TodoTable new];
 //        newItem.title = addItemPrompt.textFields[0].text;
 //        [self.toDoList addObject:newItem];
@@ -100,19 +101,22 @@
     }];
     
     [self presentViewController:addItemPrompt animated:YES completion:nil];
+    
+    NSLog(@"%@", self.toDoList);
+    
 }
 
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-//    if ([[self.marks objectAtIndex:indexPath.row] boolValue]) {
-//        UITableViewCell *newCell = [tableView cellForRowAtIndexPath:indexPath];
-//        newCell.accessoryType = UITableViewCellAccessoryNone;
-//    } else {
-//        UITableViewCell *newCell = [tableView cellForRowAtIndexPath:indexPath];
-//        newCell.accessoryType = UITableViewCellAccessoryCheckmark;
-//    }
-//    bool currentBool = [[self.marks objectAtIndex:indexPath.row] boolValue];
-//    self.marks[indexPath.row] = [NSNumber numberWithBool:!currentBool];
+    if ([[self.marks objectAtIndex:indexPath.row] boolValue]) {
+        UITableViewCell *newCell = [tableView cellForRowAtIndexPath:indexPath];
+        newCell.accessoryType = UITableViewCellAccessoryNone;
+    } else {
+        UITableViewCell *newCell = [tableView cellForRowAtIndexPath:indexPath];
+        newCell.accessoryType = UITableViewCellAccessoryCheckmark;
+    }
+    bool currentBool = [[self.marks objectAtIndex:indexPath.row] boolValue];
+    self.marks[indexPath.row] = [NSNumber numberWithBool:!currentBool];
 }
 
 

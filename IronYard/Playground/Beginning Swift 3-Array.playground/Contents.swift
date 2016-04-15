@@ -46,4 +46,26 @@ emptyArr.first
 emptyArr.last
 
 
+let things:[Any] = ["Dalek", 3, true]
+
+//TUPLES
+
+let thingsTuple = ("Dalek", 3, true)
+
+let invader = ("Dalek", 3, true)
+let (alien, howMany, dangerous) = invader
+
+print(howMany)
+print(alien)
+
+let invaders = (alien:"Dalek", howMany:3, dangerous:true)
+
+print("the \(invaders.alien) have invaded, there are \(invaders.howMany). They are dangerous \(invaders.dangerous)")
+print("the \(invaders.0) have invaded, there are \(invaders.1). They are dangerous \(invaders.2)")
+
+
+let (_, howMAny, _) = invader
+print(howMAny)
+
+
 

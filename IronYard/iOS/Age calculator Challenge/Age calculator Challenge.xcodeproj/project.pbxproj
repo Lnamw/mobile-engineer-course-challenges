@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA28DBC11CBD40900056459F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA28DBC01CBD40900056459F /* main.m */; };
+		AA28DBC41CBD40900056459F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA28DBC31CBD40900056459F /* AppDelegate.m */; };
+		AA28DBC71CBD40900056459F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA28DBC61CBD40900056459F /* ViewController.m */; };
+		AA28DBCA1CBD40900056459F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA28DBC81CBD40900056459F /* Main.storyboard */; };
+		AA28DBCC1CBD40900056459F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA28DBCB1CBD40900056459F /* Assets.xcassets */; };
+		AA28DBCF1CBD40900056459F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA28DBCD1CBD40900056459F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA28DBBC1CBD40900056459F /* Age calculator Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Age calculator Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA28DBC01CBD40900056459F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA28DBC21CBD40900056459F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA28DBC31CBD40900056459F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA28DBC51CBD40900056459F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA28DBC61CBD40900056459F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA28DBC91CBD40900056459F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA28DBCB1CBD40900056459F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA28DBCE1CBD40900056459F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA28DBD01CBD40900056459F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA28DBB91CBD40900056459F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA28DBB31CBD40900056459F = {
+			isa = PBXGroup;
+			children = (
+				AA28DBBE1CBD40900056459F /* Age calculator Challenge */,
+				AA28DBBD1CBD40900056459F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA28DBBD1CBD40900056459F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA28DBBC1CBD40900056459F /* Age calculator Challenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA28DBBE1CBD40900056459F /* Age calculator Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				AA28DBC21CBD40900056459F /* AppDelegate.h */,
+				AA28DBC31CBD40900056459F /* AppDelegate.m */,
+				AA28DBC51CBD40900056459F /* ViewController.h */,
+				AA28DBC61CBD40900056459F /* ViewController.m */,
+				AA28DBC81CBD40900056459F /* Main.storyboard */,
+				AA28DBCB1CBD40900056459F /* Assets.xcassets */,
+				AA28DBCD1CBD40900056459F /* LaunchScreen.storyboard */,
+				AA28DBD01CBD40900056459F /* Info.plist */,
+				AA28DBBF1CBD40900056459F /* Supporting Files */,
+			);
+			path = "Age calculator Challenge";
+			sourceTree = "<group>";
+		};
+		AA28DBBF1CBD40900056459F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA28DBC01CBD40900056459F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA28DBBB1CBD40900056459F /* Age calculator Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA28DBD31CBD40900056459F /* Build configuration list for PBXNativeTarget "Age calculator Challenge" */;
+			buildPhases = (
+				AA28DBB81CBD40900056459F /* Sources */,
+				AA28DBB91CBD40900056459F /* Frameworks */,
+				AA28DBBA1CBD40900056459F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Age calculator Challenge";
+			productName = "Age calculator Challenge";
+			productReference = AA28DBBC1CBD40900056459F /* Age calculator Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA28DBB41CBD40900056459F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Training;
+				TargetAttributes = {
+					AA28DBBB1CBD40900056459F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = AA28DBB71CBD40900056459F /* Build configuration list for PBXProject "Age calculator Challenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA28DBB31CBD40900056459F;
+			productRefGroup = AA28DBBD1CBD40900056459F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA28DBBB1CBD40900056459F /* Age calculator Challenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA28DBBA1CBD40900056459F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA28DBCF1CBD40900056459F /* LaunchScreen.storyboard in Resources */,
+				AA28DBCC1CBD40900056459F /* Assets.xcassets in Resources */,
+				AA28DBCA1CBD40900056459F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA28DBB81CBD40900056459F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA28DBC71CBD40900056459F /* ViewController.m in Sources */,
+				AA28DBC41CBD40900056459F /* AppDelegate.m in Sources */,
+				AA28DBC11CBD40900056459F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA28DBC81CBD40900056459F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA28DBC91CBD40900056459F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA28DBCD1CBD40900056459F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA28DBCE1CBD40900056459F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA28DBD11CBD40900056459F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA28DBD21CBD40900056459F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA28DBD41CBD40900056459F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Age calculator Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.training.Age-calculator-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA28DBD51CBD40900056459F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Age calculator Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.training.Age-calculator-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA28DBB71CBD40900056459F /* Build configuration list for PBXProject "Age calculator Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA28DBD11CBD40900056459F /* Debug */,
+				AA28DBD21CBD40900056459F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA28DBD31CBD40900056459F /* Build configuration list for PBXNativeTarget "Age calculator Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA28DBD41CBD40900056459F /* Debug */,
+				AA28DBD51CBD40900056459F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA28DBB41CBD40900056459F /* Project object */;
+}
