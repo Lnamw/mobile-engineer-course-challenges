@@ -13,6 +13,7 @@
 		AA28DBCA1CBD40900056459F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA28DBC81CBD40900056459F /* Main.storyboard */; };
 		AA28DBCC1CBD40900056459F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA28DBCB1CBD40900056459F /* Assets.xcassets */; };
 		AA28DBCF1CBD40900056459F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA28DBCD1CBD40900056459F /* LaunchScreen.storyboard */; };
+		AAC927211CC3BE09004C3CE5 /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC927201CC3BE09004C3CE5 /* DatePickerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		AA28DBCB1CBD40900056459F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA28DBCE1CBD40900056459F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA28DBD01CBD40900056459F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC9271F1CC3BE09004C3CE5 /* DatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DatePickerViewController.h; path = ../DatePickerViewController.h; sourceTree = "<group>"; };
+		AAC927201CC3BE09004C3CE5 /* DatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DatePickerViewController.m; path = ../DatePickerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				AA28DBC31CBD40900056459F /* AppDelegate.m */,
 				AA28DBC51CBD40900056459F /* ViewController.h */,
 				AA28DBC61CBD40900056459F /* ViewController.m */,
+				AAC9271F1CC3BE09004C3CE5 /* DatePickerViewController.h */,
+				AAC927201CC3BE09004C3CE5 /* DatePickerViewController.m */,
 				AA28DBC81CBD40900056459F /* Main.storyboard */,
 				AA28DBCB1CBD40900056459F /* Assets.xcassets */,
 				AA28DBCD1CBD40900056459F /* LaunchScreen.storyboard */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAC927211CC3BE09004C3CE5 /* DatePickerViewController.m in Sources */,
 				AA28DBC71CBD40900056459F /* ViewController.m in Sources */,
 				AA28DBC41CBD40900056459F /* AppDelegate.m in Sources */,
 				AA28DBC11CBD40900056459F /* main.m in Sources */,
@@ -298,6 +304,7 @@
 				AA28DBD51CBD40900056459F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAB9B4D21CC142D500EB3F12 /* FindLuckyNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB9B4D11CC142D500EB3F12 /* FindLuckyNumbers.m */; };
 		AAED28C01CBE8A1900BE9229 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAED28BF1CBE8A1900BE9229 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AAB9B4D01CC142D500EB3F12 /* FindLuckyNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindLuckyNumbers.h; sourceTree = "<group>"; };
+		AAB9B4D11CC142D500EB3F12 /* FindLuckyNumbers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindLuckyNumbers.m; sourceTree = "<group>"; };
 		AAED28BC1CBE8A1900BE9229 /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAED28BF1CBE8A1900BE9229 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				AAED28BF1CBE8A1900BE9229 /* main.m */,
+				AAB9B4D01CC142D500EB3F12 /* FindLuckyNumbers.h */,
+				AAB9B4D11CC142D500EB3F12 /* FindLuckyNumbers.m */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB9B4D21CC142D500EB3F12 /* FindLuckyNumbers.m in Sources */,
 				AAED28C01CBE8A1900BE9229 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +243,7 @@
 				AAED28C51CBE8A1900BE9229 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

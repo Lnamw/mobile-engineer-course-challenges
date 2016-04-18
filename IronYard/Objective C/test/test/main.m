@@ -8,13 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-void functionDavidAndElena(NSMutableArray *arrayOfLuckyNumbers, NSMutableArray *arrayReducedByBelenAndAnt, int indexToFindLuckyNumber, long indexToGiveToBelenAndAnt) {
+long findLuckyNumbers(NSArray * givenArray) {
 
-    [arrayOfLuckyNumbers addObject:arrayReducedByBelenAndAnt[indexToFindLuckyNumber]];
+    
+    [arrayOfLuckyNumbers addObject:givenArray[indexToFindLuckyNumber]];
     NSLog(@"Lucky numbers: %@", arrayOfLuckyNumbers);
 
 
-    indexToGiveToBelenAndAnt = [arrayOfLuckyNumbers count];
+    long indexToGiveToBelenAndAnt = [arrayOfLuckyNumbers count];
     NSLog(@"indexToGiveToBelenAndAnt: %ld", indexToGiveToBelenAndAnt);
     
 }
@@ -25,19 +26,19 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Hello, World!");
         
         
-        NSMutableArray *arrayReducedByBelenAndAnt = [[NSMutableArray alloc] init];
-        for (NSUInteger i = 1; i < 20; i++)
-        {
-            [arrayReducedByBelenAndAnt addObject:@(i)];
-        }
-
-        NSLog(@"%@", arrayReducedByBelenAndAnt);
+//        NSMutableArray *arrayReducedByBelenAndAnt = [[NSMutableArray alloc] init];
+//        for (NSUInteger i = 1; i < 20; i++)
+//        {
+//            [arrayReducedByBelenAndAnt addObject:@(i)];
+//        }
+//
+//        NSLog(@"%@", arrayReducedByBelenAndAnt);
         
         int indexToFindLuckyNumber = 0;
         
         NSMutableArray *arrayOfLuckyNumbers = [[NSMutableArray alloc] initWithCapacity:0];
         
-        long indexToGiveToBelenAndAnt = [arrayOfLuckyNumbers count];
+       // long indexToGiveToBelenAndAnt = [arrayOfLuckyNumbers count];
 
         
         while ((arrayReducedByBelenAndAnt.count != arrayOfLuckyNumbers.count)) {
