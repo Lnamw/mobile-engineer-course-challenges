@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Name View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="NameViewController" customModule="SayMyName" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name goes here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pv5-b1-Ogq">
+                                <rect key="frame" x="120" y="28" width="360" height="30"/>
+                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqw-mk-zwA">
+                                <rect key="frame" x="279" y="66" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f1q-w1-Rse">
+                                <rect key="frame" x="285" y="146" width="30" height="30"/>
+                                <state key="normal" title="Go"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UmR-fT-nQG"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H8P-QV-7ZR">
+                                <rect key="frame" x="276" y="95" width="51" height="31"/>
+                                <connections>
+                                    <action selector="switchValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="nEY-3w-P4s"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Pv5-b1-Ogq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1Na-TY-CyS"/>
+                            <constraint firstItem="cqw-mk-zwA" firstAttribute="centerX" secondItem="Pv5-b1-Ogq" secondAttribute="centerX" id="4Jd-dj-5ol"/>
+                            <constraint firstItem="cqw-mk-zwA" firstAttribute="top" secondItem="Pv5-b1-Ogq" secondAttribute="bottom" constant="8" id="EYN-mh-eab"/>
+                            <constraint firstItem="H8P-QV-7ZR" firstAttribute="top" secondItem="cqw-mk-zwA" secondAttribute="bottom" constant="8.5" id="M4o-7q-MEZ"/>
+                            <constraint firstItem="cqw-mk-zwA" firstAttribute="top" secondItem="Pv5-b1-Ogq" secondAttribute="bottom" constant="8" id="Ybw-wL-3jU"/>
+                            <constraint firstItem="f1q-w1-Rse" firstAttribute="centerX" secondItem="H8P-QV-7ZR" secondAttribute="centerX" id="g8c-9p-mW6"/>
+                            <constraint firstItem="f1q-w1-Rse" firstAttribute="top" secondItem="H8P-QV-7ZR" secondAttribute="bottom" constant="20" id="mPZ-ur-73h"/>
+                            <constraint firstItem="Pv5-b1-Ogq" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.6" id="qDY-a6-N6U"/>
+                            <constraint firstItem="H8P-QV-7ZR" firstAttribute="centerX" secondItem="cqw-mk-zwA" secondAttribute="centerX" id="rTG-s5-RNQ"/>
+                            <constraint firstItem="Pv5-b1-Ogq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="uRu-hL-gSx"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="f1q-w1-Rse" id="ZkP-wt-A88"/>
+                        <outlet property="changeColorSwitch" destination="H8P-QV-7ZR" id="Twc-Wq-gej"/>
+                        <outlet property="messageLabel" destination="cqw-mk-zwA" id="J8l-7I-Qnv"/>
+                        <outlet property="nameTextField" destination="Pv5-b1-Ogq" id="wp7-rb-puX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
